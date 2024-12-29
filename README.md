@@ -99,8 +99,7 @@ declare module '*.vue' {
 
 1-5) webpack.config.js
 
-```
-javascript
+```javascript
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { ModuleFederationPlugin } = require('webpack').container;
