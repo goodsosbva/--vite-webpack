@@ -1,0 +1,31 @@
+# Node.js 관련
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 빌드 산출물
+dist/
+*.log
+
+# 환경설정 파일
+.env
+.env.local
+.env.*.local
+
+# IDE 및 시스템 파일
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript 출력 파일
+*.tsbuildinfo
+
+# HMR 캐시 및 빌드 캐시
+.vite/
+.cache/
+*.lock
