@@ -364,3 +364,7 @@ pnpm install
 pnpm dev
 ```
 브라우저에서 **http://localhost:5000**를 열어 <RemoteExposed />를 확인하세요.
+
+좀 더 자세한 설명
+
+https://goodsosbva.tistory.com/372
