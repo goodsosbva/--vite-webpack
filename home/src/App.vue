@@ -11,6 +11,6 @@
 <script setup lang="ts">
 import { defineAsyncComponent } from 'vue'
 
-// "remote/Exposed" == remoteEntry에서 exposes: { './Exposed': './src/Exposed.vue' }
+// "remote/Exposed" == remoteEntry에서 exposes: { './Exposed': './src/Todo.vue' }
 const RemoteExposed = defineAsyncComponent(() => import('remote/Exposed'))
 </script>
