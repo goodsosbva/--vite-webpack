@@ -50,7 +50,7 @@ module.exports = {
             name: 'remote',         // var 전역에서 'window.remote'
             filename: 'remoteEntry.js',
             exposes: {
-                './Exposed': './src/Exposed.vue'
+                './Exposed': './src/Todo.vue'
             },
             shared: {
                 vue: {
