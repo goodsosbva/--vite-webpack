@@ -14,11 +14,17 @@ export default defineConfig({
                     external: 'http://localhost:5001/remoteEntry.js',
                     format: 'var',
                 },
+                remote2: {
+                    external: 'http://localhost:5003/remoteEntry.js',
+                    format: 'var',
+                },
             },
             shared: {
                 vue: {
                     singleton: true,
-                    requiredVersion: '^3.2.0'
+                    requiredVersion: '^3.2.0',
+                    eager: false, // remote2와 일치하도록 설정
+                    strictVersion: false,
                 }
             }
         })
